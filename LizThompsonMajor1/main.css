@@ -1,0 +1,62 @@
+/* Body styling */
+body {
+    background-image: url(breakcore.jpg);
+    font-family: arial;
+    color: white;
+}
+
+/* Page header styling */
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: courier;
+}
+
+/* Subheader styling */
+h2 {
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.25em;
+    padding: 0.5%
+}
+
+/* hyperlink color change to skyblue */
+a {
+    color: skyblue;
+}
+
+/* Image padding to make the captions under appear nicer + ornate border cause we funky like that */
+img {
+    margin: 10px;
+    border: 20px solid transparent;
+    border-image: url(portrait.png) 10%;
+}
+
+/* Columns for artists */
+div.art {
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+/* Text that goes under the images in the artist section */
+span.caption {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: 1%;
+}
+
+/* Block divider with reduced opacity for reading clarity without blocking out the background entirely */
+/* Padding & Margin should both be more horizontal than vertical, percentage based */
+div.block {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 0.25% 1%;
+    margin: 5% 1%;
+}
